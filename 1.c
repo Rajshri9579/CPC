@@ -14,7 +14,6 @@ void reverseString(char arr[]) {
 
 int main() {
     char arr[10][50];
-
     for (int i = 0; i < 10; i++) {
         printf("Enter string no %d: ", i + 1);
         scanf("%s", arr[i]);
@@ -24,8 +23,7 @@ int main() {
         reverseString(arr[i]);
         printf("Reverse of String %d is: %s\n", i + 1, arr[i]);
     }
-
-    return 0;
+     return 0;
 }
-```
+
 
