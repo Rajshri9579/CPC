@@ -26,7 +26,7 @@ int main()
         printf("Subject:");
         scanf("%s", bookArray[i].subject);
         printf("Book id:");
-        scanf("%d", &bookArray[i].book_id); // Corrected format specifier, added & before the variable
+        scanf("%d", &bookArray[i].book_id); 
     }
 
     printf("Details of the five books entered by the user:\n");
